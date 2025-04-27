@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./image/favicon.svg">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-sm md:text-base relative">
+    
+    <header class="z-[5] fixed w-full top-0 left-0 px-6 md:px-[60px] xl:px-20 2xl:px-[100px] py-6 2xl:py-7">
+        <div class="flex items-center justify-between zrcontainermd">
+            <div class="zrlogo">
+                 <a href="./index.html" class="text-[20px] transition-all duration-300 uppercase font-medium tracking-wider">Hnin Thu Zar</a>
+            </div>
+            <div class="hidden lg:!block lg:ml-5 zrmenu">
+                <div class="py-5 px-5 xs:px-10 w-full block lg:hidden zrmenuclose">
+                    <img class="ml-auto w-6 h-6 cursor-pointer" src="./image/close-icon.svg" alt="close menu" />
+                 </div>
+                <ul class="p-6 sm:p-10 lg:p-0 flex font-medium tracking-wide">
+                    <li class="border-b border-[rgb(0,0,0,0.1)] lg:border-b-0 py-5 lg:py-0 first:pt-0 lg:mr-10 last:mr-0"><a class="transition-all duration-300" href="#home">Home</a></li>
+                    <li class="border-b border-[rgb(0,0,0,0.1)] lg:border-b-0 py-5 lg:py-0 first:pt-0 lg:mr-10 last:mr-0"><a class="transition-all duration-300" href="#about">About</a></li>
+                    <li class="border-b border-[rgb(0,0,0,0.1)] lg:border-b-0 py-5 lg:py-0 first:pt-0 lg:mr-10 last:mr-0"><a class="transition-all duration-300" href="#work">Work</a></li>
+                    <li class="border-b border-[rgb(0,0,0,0.1)] lg:border-b-0 py-5 lg:py-0 first:pt-0 lg:mr-10 last:mr-0"><a class="transition-all duration-300" href="#education">Education</a></li>
+                    <li class="border-b border-[rgb(0,0,0,0.1)] lg:border-b-0 py-5 lg:py-0 first:pt-0 lg:mr-10 last:mr-0"><a class="transition-all duration-300" href="#projects">Projects</a></li>
+                    <li class="border-b border-[rgb(0,0,0,0.1)] lg:border-b-0 py-5 lg:py-0 first:pt-0 lg:mr-10 last:mr-0"><a class="transition-all duration-300" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="cursor-pointer block lg:hidden zrmobilemenu">
+                <img src="./image/menu-icon.svg" alt="menu icon" />
+            </div>
+        </div>
+    </header>
+    <main class="pt-[83px] min-h-screen">
+        <section id="home" class="!hidden px-6 flex flex-col justify-center min-h-[calc(100vh-83px)] zrhome">
+            <div class="py-12 flex flex-wrap md:flex-nowrap max-w-[800px] mx-auto">
+                <div class="mb-6 md:mb-0 w-full md:w-auto zrprofileimage">
+                    <img class="mt-5 rounded-lg max-w-[180px] max-h-[180px]" src="./image/my_profile.jpg" alt="profile image"/>
+                </div>
+                <div class="w-full md:w-auto md:ml-10">
+                    <div class="zrcontent">
+                        <div class="zrstatictext">I'm a</div>
+                        <ul class="zrdynamictext">
+                            <li><span>Web Developer!</span></li>
+                            <li><span>Web Application Developer!</span></li>
+                            <li><span>Frontend Developer!</span></li>
+                            <li><span>Frontend Web Developer!</span></li>
+                        </ul>
+                    </div>
+                    <h1 class="text-[36px] sm:text-[40px] md:text-[44px] xl:text-[50px] font-bold zrtitle">Hnin Thu Zar</h1>
+                    <div class="mt-5 zrdescription">
+                        I'm Zara — a senior front-end developer with a design-minded approach to building elegant, intuitive web interfaces.
+
+With a strong foundation in JavaScript, modern frameworks, and responsive design, I specialize in crafting user experiences that are not only performant and accessible, but also visually polished and delightful to interact with.
+                    </div>
+                    <div class="my-8 flex flex-nowrap text-sm md:text-base zrbtnContainer">
+                        <a download href="./Sample Resume.pdf" class="mr-3 min-w-[150px] md:min-w-[190px] py-[12px] px-6 md:px-[30px] zrbtn zrbtn-download">
+                            Download CV
+                        </a>
+                        <a href="#contact" id="zrContact" class="min-w-[150px] md:min-w-[190px] py-[12px] px-6 md:px-[30px] zrbtn zrbtn-contact">
+                            Contact
+                        </a>
+                    </div>
+                    <div class="zrsociallink">
+                        <a href="#" class="mr-2 last:mr-0 inline-flex justify-center items-center"><img class="transition-all duration-300" src="./image/linkedin-icon.svg" alt="linkin icon"/></a>
+                        <a href="#" class="mr-2 last:mr-0 inline-flex justify-center items-center"><img class="transition-all duration-300" src="./image/github-icon.svg" alt="github icon"/></a>
+                        <a href="#" class="mr-2 last:mr-0 inline-flex justify-center items-center"><img class="transition-all duration-300" src="./image/instagram-icon.svg" alt="instragram icon"/></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="!hidden px-6 flex flex-col justify-center min-h-[calc(100vh-83px)] zrabout">
+            <div class="py-12 max-w-[650px] mx-auto tracking-wide">
+                <p class="mb-5 text-[14px] font-medium zrabouttitle">Welcome! Thanks for taking the time to check out my website.</p>
+                <div class="mb-8 last:mb-0">
+                    <h6 class="mb-3 font-semibold zraboutme">⚡ Introduction (Who You Are)</h6>
+                    <ul class="list-disc pl-6">
+                        <li class="mb-2 last:mb-0">I am Zara.</li>
+                        <li class="mb-2 last:mb-0">Start with a brief, engaging introduction.</li>
+                        <li class="mb-2 last:mb-0">Mention your name, profession, and years of experience.</li>
+                        <li class="mb-2 last:mb-0">Highlight what makes you passionate about your work.</li>
+                    </ul>
+                </div>
+                <div class="mb-8 last:mb-0">
+                    <h6 class="mb-3 font-semibold zraboutme">⚡ Skills & Expertise (What You Do)</h6>
+                    <ul class="list-disc pl-6">
+                        <li class="mb-2 last:mb-0">My expertise includes Frontend Development using React.js, Nextt js, and Tailwind CSS.</li>
+                        <li class="mb-2 last:mb-0">List your key skills and specializations.</li>
+                        <li class="mb-2 last:mb-0">Mention technologies, frameworks, or tools you excel in.</li>
+                        <li class="mb-2 last:mb-0">Highlight any unique strengths.</li>
+                    </ul>
+                </div>                
+            </div>
+        </section>
+
+        <section id="work" class="!hidden px-6 flex flex-col justify-center min-h-[calc(100vh-83px)] zrexperience">
+            <div class="py-12 tracking-wide">
+                <h2 class="mb-14 md:mb-16 lg:mb-20 text-center text-[30px] sm:text-[36px] lg:text-[40px] font-semibold">Work Experience</h2>
+                <div class="max-w-[900px] mx-auto zrexpcontent">
+
+                    <div class="mb-12 lg:mb-20 last:mb-0 w-full flex flex-row items-start gap-4 sm:gap-[30px] zrexpstepcontainer">
+                        <div class="min-w-[50px] md:flex-1 zrstepyear">
+                            <h3 class="text-[18px] sm:text-[20px] lg:text-[24px] font-semibold mb-3">2019</h3>
+                        </div>
+                        <div class="flex-[0,0,28px] min-w-7 rounded-full w-7 h-7 zrstepprogress">
+                            <div class="zrstepprogressinner">
+                                <div class="zrstepprogressline" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 zrstepcontentwrapper">
+                            <div class="zrstepcontent">
+                                <div>
+                                    <h4 class="transition-all duration-300 text-[18px] sm:text-[20px] lg:text-[22px] font-semibold mb-3">Senior Web developer</h4>
+                                    <div class="mb-3 zrdescription">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <p class="text-sm">02/2019 - 01/2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-12 lg:mb-20 last:mb-0 w-full flex flex-row md:flex-row-reverse items-start gap-4 sm:gap-[30px] zrexpstepcontainer">
+                        <div class="min-w-[50px] md:flex-1 zrstepyear">
+                            <h3 class="text-[18px] sm:text-[20px] lg:text-[24px] font-semibold mb-3">2021</h3>
+                        </div>
+                        <div class="flex-[0,0,28px] min-w-7 rounded-full w-7 h-7 zrstepprogress">
+                            <div class="zrstepprogressinner">
+                                <div class="zrstepprogressline" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 zrstepcontentwrapper">
+                            <div class="zrstepcontent">
+                                <div>
+                                    <h4 class="transition-all duration-300 text-[18px] sm:text-[20px] lg:text-[22px] font-semibold mb-3">Senior Web developer</h4>
+                                    <div class="mb-3 zrdescription">
+                                        I have experience in crafting responsive UI/UX, optimizing website performance, and building scalable web applications.
+                                    </div>
+                                    <p class="text-sm">02/2021 - 01/2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-12 lg:mb-20 last:mb-0 w-full flex flex-row items-start gap-4 sm:gap-[30px] zrexpstepcontainer">
+                        <div class="min-w-[50px] md:flex-1 zrstepyear">
+                            <h3 class="text-[18px] sm:text-[20px] lg:text-[24px] font-semibold mb-3">2024</h3>
+                        </div>
+                        <div class="flex-[0,0,28px] min-w-7 rounded-full w-7 h-7 zrstepprogress">
+                            <div class="zrstepprogressinner">
+                                <div class="zrstepprogressline" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1 zrstepcontentwrapper">
+                            <div class="zrstepcontent">
+                                <div>
+                                    <h4 class="transition-all duration-300 text-[18px] sm:text-[20px] lg:text-[22px] font-semibold mb-3">Senior Web developer</h4>
+                                    <div class="mb-3 zrdescription">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div>
+                                    <p class="text-sm">02/2024 - 01/2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="!hidden px-6 flex flex-col justify-center min-h-[calc(100vh-83px)] zrproject">
+            <div class="py-12 tracking-wide">
+                <h2 class="mb-14 md:mb-16 lg:mb-20 text-center text-[30px] sm:text-[36px] lg:text-[40px] font-semibold">My Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[30px] max-w-[800px] xl:max-w-[1100px] 2xl:max-w-[1200px] mx-auto zrprocontent">
+                    <div class="flex flex-col rounded-lg p-6 sm:p-[30px] border zrprocard">
+                        <div class="zrproimg">
+                            <img class="rounded-lg " src="./image/cute-cat-2.png" alt="" />
+                        </div>
+                        <div class="my-5 zrprocontent">
+                            <h4 class="transition-all duration-300 text-[18px] sm:text-[20px] lg:text-[22px] font-semibold mb-3">Hello - Ecommerce Project</h4>
+                            <div class="zrdescription">
+                                Lorem ipsum, hello dolor sit amet consectetur adipisicing elit. 
+                            </div>
+                        </div>
+                        <div class="mt-auto zrprobtn">
+                            <a href="https://e-commerce-brown-chi.vercel.app/" class="w-full min-w-[150px] md:min-w-[190px] py-[12px] px-6 md:px-[30px] zrbtn !mb-2 sm:!mb-0 zrbtn-contact">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col rounded-lg p-6 sm:p-[30px] border zrprocard">
+                        <div class="zrproimg">
+                            <img class="rounded-lg " src="./image/cute-cat-2.png" alt="" />
+                        </div>
+                        <div class="my-5 zrprocontent">
+                            <h4 class="transition-all duration-300 text-[18px] sm:text-[20px] lg:text-[22px] font-semibold mb-3">Hello - Organization Project</h4>
+                            <div class="zrdescription">
+                                Lorem ipsum, hello dolor sit amet consectetur adipisicing elit. 
+                            </div>
+                        </div>
+                        <div class="mt-auto zrprobtn">
+                            <a href="https://htzorganization.firebaseapp.com/" class="w-full min-w-[150px] md:min-w-[190px] py-[12px] px-6 md:px-[30px] zrbtn !mb-2 sm:!mb-0 zrbtn-contact">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col rounded-lg p-6 sm:p-[30px] border zrprocard">
+                        <div class="zrproimg">
+                            <img class="rounded-lg " src="./image/cute-cat-2.png" alt="" />
+                        </div>
+                        <div class="my-5 zrprocontent">
+                            <h4 class="transition-all duration-300 text-[18px] sm:text-[20px] lg:text-[22px] font-semibold mb-3">Hello - Sharing Project</h4>
+                            <div class="zrdescription">
+                                Lorem ipsum, hello dolor sit amet consectetur adipisicing elit. 
+                            </div>
+                        </div>
+                        <div class="mt-auto zrprobtn">
+                            <a href="https://hninthuzar.github.io/learning-and-sharing-document-public" class="w-full min-w-[150px] md:min-w-[190px] py-[12px] px-6 md:px-[30px] zrbtn !mb-2 sm:!mb-0 zrbtn-contact">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="!hidden px-6 flex flex-col justify-center min-h-[calc(100vh-83px)] zreducation">
+            <div class="py-12 tracking-wide">
+                <div class="mx-auto max-w-[900px]">
+                    <div class="mb-[30px] last:mb-0 rounded-lg border border-[rgb(0,0,0,0.1)] p-5 sm:p-6 transition-all duration-300 zreducard">
+                        <div class="flex justify-between flex-wrap sm:flex-nowrap items-center zreduheader">
+                            <div class="my-1 sm:my-0 flex items-center">
+                                <img class="rounded-lg max-w-[40px] sm:max-w-[46px] max-h-[40px] sm:max-h-[46px] p-1 bg-white border border-[rgb(0,0,0,0.1)]" src="./image/Logo_ucst.png" alt="" />
+                                <h5 class="ml-3 transition-all duration-300 text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">Computer University</h5>
+                            </div>
+                            <div class="my-1 sm:my-0 text-sm sm:text-[16px] font-semibold text-[#5d5b5d]">
+                                2013 - 2018
+                            </div>
+                        </div>
+                        <div class="mt-5 zrdescription">
+                            <p class="mb-1 text-[#5d5b5d] zrlocation">Taungoo</p>
+                            <p class="font-semibold text-[16px] sm:text-lg zrdegree">Bachelor of computer science - BCSC</p>
+                        </div>
+                    </div>
+                    <div class="mb-[30px] last:mb-0 rounded-lg border border-[rgb(0,0,0,0.1)] p-5 sm:p-6 transition-all duration-300 zreducard">
+                        <div class="flex justify-between flex-wrap sm:flex-nowrap items-center zreduheader">
+                            <div class="my-1 sm:my-0 flex items-center">
+                                <img class="rounded-lg max-w-[40px] sm:max-w-[46px] max-h-[40px] sm:max-h-[46px] p-1 bg-white border border-[rgb(0,0,0,0.1)]" src="./image/Logo_ucst.png" alt="" />
+                                <h5 class="ml-3 transition-all duration-300 text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">Computer University</h5>
+                            </div>
+                            <div class="my-1 sm:my-0 text-sm sm:text-[16px] font-semibold text-[#5d5b5d]">
+                                2013 - 2018
+                            </div>
+                        </div>
+                        <div class="mt-5 zrdescription">
+                            <p class="mb-1 text-[#5d5b5d] zrlocation">Taungoo</p>
+                            <p class="font-semibold text-[16px] sm:text-lg zrdegree">Bachelor of computer science - BCSC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="!hidden px-6 flex flex-col justify-center min-h-[calc(100vh-83px)] zrcontact">
+            <div class="py-12 tracking-wide">
+                <div class="mx-auto max-w-[540px] py-7 sm:py-10 px-5 sm:px-10 bg-[#ffffffb3] rounded-xl zrcontactcardcontainer">
+                    <div class="mb-[30px] last:mb-0 transition-all duration-300 text-center bg-[#f8f9fc] p-5 sm:p-6 rounded-lg border border-[rgb(0,0,0,0.1)] hover:border-[rgb(0,0,0,0.2)] zrcontactcard zremail">
+                        <div class="zriconcontainer">
+                            <svg class="mx-auto max-w-[34px] w-[34px]" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M32.33 5.99997C32.1937 5.98593 32.0563 5.98593 31.92 5.99997H3.92001C3.74056 6.00274 3.56229 6.02965 3.39001 6.07997L17.84 20.47L32.33 5.99997Z" fill="#ff291a"/>
+                                <path d="M33.81 7.39001L19.25 21.89C18.8753 22.2625 18.3684 22.4716 17.84 22.4716C17.3116 22.4716 16.8047 22.2625 16.43 21.89L1.99999 7.50001C1.95563 7.66306 1.93211 7.83106 1.92999 8.00001V28C1.92999 28.5304 2.14071 29.0392 2.51578 29.4142C2.89085 29.7893 3.39956 30 3.92999 30H31.93C32.4604 30 32.9691 29.7893 33.3442 29.4142C33.7193 29.0392 33.93 28.5304 33.93 28V8.00001C33.922 7.79167 33.8815 7.58585 33.81 7.39001ZM5.29999 28H3.90999V26.57L11.18 19.36L12.59 20.77L5.29999 28ZM31.91 28H30.51L23.22 20.77L24.63 19.36L31.9 26.57L31.91 28Z" fill="#ff291a"/>
+                            </svg>
+                        </div>
+                        <h6 class="mt-3 text-[16px] sm:text-lg font-semibold">Email</h6>
+                        <p class="mt-2 text-[13px] sm:text-[15px] text-[#212121b3]">
+                            <a href="mailto:hninthuzar.itworld@gmail.com">hninthuzar.itworld@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="mb-[30px] last:mb-0 transition-all duration-300 text-center bg-[#f8f9fc] p-6 rounded-lg border border-[rgb(0,0,0,0.1)] hover:border-[rgb(0,0,0,0.2)] zrcontactcard zrphone">
+                        <div class="zriconcontainer">
+                            <svg class="mx-auto max-w-[34px] w-[34px]" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M24.828 33.1995C22.668 33.12 16.5465 32.274 10.1355 25.8645C3.726 19.4535 2.8815 13.3335 2.8005 11.172C2.6805 7.87802 5.2035 4.67852 8.118 3.42902C8.46896 3.27747 8.8533 3.21977 9.2333 3.26158C9.61329 3.30339 9.97588 3.44328 10.2855 3.66752C12.6855 5.41652 14.3415 8.06252 15.7635 10.143C16.0764 10.6001 16.2102 11.1563 16.1393 11.7057C16.0685 12.2551 15.7981 12.7592 15.3795 13.122L12.453 15.2955C12.3116 15.3976 12.2121 15.5476 12.1729 15.7175C12.1337 15.8874 12.1576 16.0658 12.24 16.2195C12.903 17.424 14.082 19.218 15.432 20.568C16.782 21.918 18.6615 23.175 19.95 23.913C20.1116 24.0037 20.3017 24.0291 20.4814 23.9839C20.6611 23.9387 20.8166 23.8264 20.916 23.67L22.821 20.7705C23.1712 20.3053 23.6879 19.9936 24.2628 19.9008C24.8376 19.808 25.4261 19.9412 25.905 20.2725C28.0155 21.7335 30.4785 23.361 32.2815 25.6695C32.5239 25.9814 32.6782 26.3526 32.728 26.7445C32.7779 27.1363 32.7216 27.5344 32.565 27.897C31.3095 30.8265 28.1325 33.321 24.828 33.1995Z" fill="#ff291a"/>
+                            </svg>
+                        </div>
+                        <h6 class="mt-3 text-[16px] sm:text-lg font-semibold">Phone</h6>
+                        <p class="mt-2 text-[13px] sm:text-[15px] text-[#212121b3]">
+                            <a href="tel:+60 22332244">+60 22332244</a>
+                        </p>
+                    </div>
+                    <div class="mb-[30px] last:mb-0 transition-all duration-300 text-center bg-[#f8f9fc] p-6 rounded-lg border border-[rgb(0,0,0,0.1)] hover:border-[rgb(0,0,0,0.2)] zrcontactcard zraddress">
+                        <div class="zriconcontainer">
+                            <svg class="mx-auto max-w-[34px] w-[34px]" xmlns="http://www.w3.org/2000/svg" width="27" height="36" viewBox="0 0 27 36" fill="none">
+                                <path d="M15.1664 35.1C18.7734 30.5859 27 19.6453 27 13.5C27 6.04688 20.9531 0 13.5 0C6.04688 0 0 6.04688 0 13.5C0 19.6453 8.22656 30.5859 11.8336 35.1C12.6984 36.1758 14.3016 36.1758 15.1664 35.1ZM13.5 9C14.6935 9 15.8381 9.47411 16.682 10.318C17.5259 11.1619 18 12.3065 18 13.5C18 14.6935 17.5259 15.8381 16.682 16.682C15.8381 17.5259 14.6935 18 13.5 18C12.3065 18 11.1619 17.5259 10.318 16.682C9.47411 15.8381 9 14.6935 9 13.5C9 12.3065 9.47411 11.1619 10.318 10.318C11.1619 9.47411 12.3065 9 13.5 9Z" fill="#ff291a"/>
+                            </svg>
+                        </div>
+                        <h6 class="mt-3 text-[16px] sm:text-lg font-semibold">Address</h6>
+                        <div class="mt-2 text-[13px] sm:text-[15px] text-[#212121b3]">
+                            <p>55100, Jalan 1</p>
+                            <p>Kuala Lumpur, Malaysia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
